@@ -47,8 +47,8 @@ const rl = readline.createInterface({
 });
 
 console.log("╔══════════════════════════════════════╗");
-console.log("║   LangChain.js Chatbot  (xAI Grok)   ║");
-console.log("║   Type 'exit' or 'quit' to stop      ║");
+console.log("║   LangChain.js Chatbot  (Groq)        ║");
+console.log("║   Type 'exit' or 'quit' to stop       ║");
 console.log("╚══════════════════════════════════════╝\n");
 
 process.on("SIGINT", () => {
