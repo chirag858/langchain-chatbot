@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(if \\(-not $?\\) { \"Directory is empty or new\" })",
+      "Bash(gh auth *)",
+      "PowerShell(gh auth status)"
+    ]
+  }
+}
